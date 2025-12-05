@@ -29,4 +29,11 @@ curl -o "$padded_day/input.txt" \
      --cookie "session=$AOC_SESSION" \
      "https://adventofcode.com/2025/day/$day/input"
 
+# Create empty test.txt file
+touch "$padded_day/test.txt"
+touch "$padded_day/aoc_${padded_day}a.py"
+touch "$padded_day/aoc_${padded_day}b.py"
+
+
+
 echo "Downloaded input for day $day to $padded_day/input.txt"
